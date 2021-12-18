@@ -1,0 +1,73 @@
+/=========================================================\
+|Rossz PC Játékok Sorozat Fangame - Kurtis és Sleepy által|
+\=========================================================/
+
+Játékmenet
+==========
+A menüben kattints rá az "Új játék" gombra, ha folytatni szeretnéd
+a játékod, akkor jobb alul válaszd ki a pályád számát (legnagyobb
+kiválasztható szám) és azután kattints az "Új játék" gombra.
+
+Röviden a játékmenet FreddyD által játszott játékokról fog szólni.
+Ha elakadnál, érdemes a használ gombot kipróbálni néhány tárgyon.
+
+Hibaelhárítás
+=============
+- Ha a játék vagy a mellékelt programok nem mûködnének megfelelõen, akkor
+  a programot Rendszergazdai jogokkal futtasd (pl. nem ment a játék)
+
+Beállítás és jelszó
+===================
+Az rpcj_conf.exe-ben lehet egy enyhén kiterjesztettebb beállítást végezni
+a játékon, a többi beállítást az RPCJ.exe-ben lehet elvégezni.
+
+A jelszórendszerrõl röviden annyit, hogy ha eljutsz valameddig, kilépsz a
+játékból, és elindítod a rpcj_pass.exe-t, akkor ki fogja írni a jelenlegi
+jelszavadat. Nem hiszem, hogy sok haszna van a rendszernek, viszont ha
+véletlenül elveszne a játékállásod a jelszóval vissza lehet állítani késõbb
+a játékot. 4 betûbõl áll a jelszó, nincsenek túlbonyolítva.
+
+Minimális rendszerkövetelmény
+(nem feltétlen pontos)
+=============================
+- Windows XP és késõbbiek
+- 1,6GHz Intel Celeron CPU
+- 64MB VideoRAM
+- 200MB SZABAD RAM (XP esetén ~512MB, Vista/7 ~1024MB)
+- 300MB Szabad terület
+- .Net Framework 2.0
+
+Irányítás
+=========
+W,A,S,D vagy Nyílbillentyûk - Mozgás
+1..9 - fegyver váltás (Mesterlövész)
+Bal egér - Lövés
+Jobb egér - Szkóp (M14) vagy lámpa (SIG, P90) (Mesterlövész),
+            egyes részeknél: speciális gomb
+R - Fegyver újratöltése (Mesterlövész)
+Szóköz(SPACE) - Ugrás, egyes részeknél: kameraváltás, felváltás
+Bal Shift - Futás
+C - Guggolás
+E - Használat
+ESC - Vissza a menübe
+
+Játék törlése
+=============
+1. Futtasd le az uninstall.reg-et
+2. Töröld a játék mappáját
+
+A Rossz PC Játékok Sorozat játékain kívül felhasznált tartalmak:
+================================================================
+Network Q Rac Rally Championship
+Stunts
+Lego Racers 2
+Grand Theft Auto: San Andreas
+Wolfenstein 3D
+Call of Duty 2
+Rise of The Triad
+HeXen
+Heretic
+F22 - Air Dominance Fighter
+The Matrix Revolutions
+Visor hangja
+Toto intrója

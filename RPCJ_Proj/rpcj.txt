@@ -1,0 +1,72 @@
+/===============================\
+|Rossz PC Játékok Project (Game)|
+\===============================/
+
+|================|
+|Jelmagyagyarázat|
+|================|
+
+FPS - Elsõ személyû nézet
+TPS - Harmadik személyû nézet
+Side - Oldalnézet
+Topdown - Felülnézetes
+Car - Jármûves
+
+|============|
+|Játék menete|
+|============|
+
+1. Szekció (Évad)
+=================
+Ágyból felkelés (FPS)
+A Mesterlövész (FPS)
+ - Elõszó
+ - Börtön
+ - A polgármesternél
+ - A gyár (kerítés)
+ - Harcmezõk (õrszobák)
+ - A menekülés
+ - Álmos üreg
+Big Rigs (Car, Kamion, busz becsapódik valamikor, vált)
+Big Rigs (FPS, Buszban házon keresztül, vált)
+Home Alone 2 (Side)
+Flinstones (Side)
+Deathbringer (Side)
+Heat (FPS)
+Eight legged freaks (FPS)
+Airbone Hero (FPS)
+
+2. Szekció (Évad)
+=================
+Scooter Pro (TPS)
+Az elveszett poén - Afrika sötét titkai (FPS)
+Amerika Titkos Hadmûveletei (FPS)
+Dark Vampires (FPS)
+A Mesterlövész (FPS)
+ - Harcmezõk (automata)
+Mortyr (FPS)
+Power Surge (Car)
+Frontline Berlin (FPS)
+
+3. Szekció (Évad)
+=================
+Nina - egy ügynök naplója (FPS)
+Lego Island (FPS)
+Terminator 3 (FPS)
+Alien Anarchy (FPS)
+Lula 3D (TPS)
+War Train (FPS)
+Antikiller (TPS)
+
+4. Szekció (Évad)
+=================
+Bus Driver (Car)
+Wolfschanze (FPS)
+Traktor Racer (Car)
+Moonwalker (Topdown, TPS)
+Miami Vice (TPS)
+Country Justice (FPS)
+
+Finálé
+======
+A Mesterlövész (FPS)

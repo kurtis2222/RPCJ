@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{FAA47E2D-D8E9-E866-9138-B36049F79288}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AirboneHero\AHCollision.cs" />
+     <Compile Include="Assets\Scripts\AirboneHero\AirboneHero.cs" />
+     <Compile Include="Assets\Scripts\AmericaSec\AmericaSec.cs" />
+     <Compile Include="Assets\Scripts\Anarchy\AnarEvade.cs" />
+     <Compile Include="Assets\Scripts\Anarchy\OldFPSControl.cs" />
+     <Compile Include="Assets\Scripts\Anarchy\SpriteScript.cs" />
+     <Compile Include="Assets\Scripts\Bedrock\Bedrock.cs" />
+     <Compile Include="Assets\Scripts\BigRigs\BigRigs.cs" />
+     <Compile Include="Assets\Scripts\BigRigs\ChangeCamera.cs" />
+     <Compile Include="Assets\Scripts\BigRigs\CheckScript.cs" />
+     <Compile Include="Assets\Scripts\BigRigs\FinishScript.cs" />
+     <Compile Include="Assets\Scripts\BigRigs\SpeedPlace.cs" />
+     <Compile Include="Assets\Scripts\BigRigs\SurfStick.cs" />
+     <Compile Include="Assets\Scripts\BusDriver\BusDriver.cs" />
+     <Compile Include="Assets\Scripts\BusDriver\BusDrvCoDrv.cs" />
+     <Compile Include="Assets\Scripts\BusDriver\BusDrvCoHdl.cs" />
+     <Compile Include="Assets\Scripts\CountryJustice\CountryJustice.cs" />
+     <Compile Include="Assets\Scripts\DarkVamp\DVSpawn.cs" />
+     <Compile Include="Assets\Scripts\DarkVamp\DVveg.cs" />
+     <Compile Include="Assets\Scripts\DarkVamp\DarkVamp.cs" />
+     <Compile Include="Assets\Scripts\DeathBringer\DeathBringer.cs" />
+     <Compile Include="Assets\Scripts\Endgame\BossProj.cs" />
+     <Compile Include="Assets\Scripts\Endgame\Endg11.cs" />
+     <Compile Include="Assets\Scripts\Endgame\Endg12.cs" />
+     <Compile Include="Assets\Scripts\Endgame\Endg21.cs" />
+     <Compile Include="Assets\Scripts\Endgame\Endg22.cs" />
+     <Compile Include="Assets\Scripts\Endgame\Outro.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudAmmo.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudHide.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudHit.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudScale.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudScaleFont.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudStamina.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudTextScale.cs" />
+     <Compile Include="Assets\Scripts\HUD\HudwIcon.cs" />
+     <Compile Include="Assets\Scripts\Heat\Heat.cs" />
+     <Compile Include="Assets\Scripts\HomeAlone\HomeAlone.cs" />
+     <Compile Include="Assets\Scripts\HomeAlone\HomeAloneEnemy.cs" />
+     <Compile Include="Assets\Scripts\LegoIsland\LegoIsland.cs" />
+     <Compile Include="Assets\Scripts\Menu\IntroScript.cs" />
+     <Compile Include="Assets\Scripts\Menu\MenuLoad.cs" />
+     <Compile Include="Assets\Scripts\Menu\MenuScript.cs" />
+     <Compile Include="Assets\Scripts\Menu\SceneSelect.cs" />
+     <Compile Include="Assets\Scripts\Menu\SceneText.cs" />
+     <Compile Include="Assets\Scripts\Misc\FPSWalkerEnhanced.cs" />
+     <Compile Include="Assets\Scripts\Misc\HeadBob.cs" />
+     <Compile Include="Assets\Scripts\Misc\HeliGun.cs" />
+     <Compile Include="Assets\Scripts\Misc\ImpactEffect.cs" />
+     <Compile Include="Assets\Scripts\Misc\JumppadScript.cs" />
+     <Compile Include="Assets\Scripts\Misc\MainScript.cs" />
+     <Compile Include="Assets\Scripts\Misc\QuitToMenu.cs" />
+     <Compile Include="Assets\Scripts\Misc\RotateScript.cs" />
+     <Compile Include="Assets\Scripts\Misc\SniperScope.cs" />
+     <Compile Include="Assets\Scripts\Misc\TimedDestroy.cs" />
+     <Compile Include="Assets\Scripts\Misc\WaterScript.cs" />
+     <Compile Include="Assets\Scripts\Misc\WeaponScript.cs" />
+     <Compile Include="Assets\Scripts\MoonWalker\MWEnd.cs" />
+     <Compile Include="Assets\Scripts\MoonWalker\MWOrb.cs" />
+     <Compile Include="Assets\Scripts\MoonWalker\MoonWalker.cs" />
+     <Compile Include="Assets\Scripts\Mortyr\FullscreenHud.cs" />
+     <Compile Include="Assets\Scripts\Mortyr\Mortyr.cs" />
+     <Compile Include="Assets\Scripts\Mortyr\MortyrDrunk.cs" />
+     <Compile Include="Assets\Scripts\Mortyr\MortyrEnemy.cs" />
+     <Compile Include="Assets\Scripts\Mortyr\MortyrItem.cs" />
+     <Compile Include="Assets\Scripts\Nina\CartScript.cs" />
+     <Compile Include="Assets\Scripts\Nina\NinaGun.cs" />
+     <Compile Include="Assets\Scripts\Nina\UseScript.cs" />
+     <Compile Include="Assets\Scripts\Trigger\AltModelTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\DeathTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\DestroyTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\EnableTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\FreezeTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\GraveTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\HPTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\ImageTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\SaberTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\ShotTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\SlideTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\SpawnTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\TeleportTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\TimedExplosionTrigger.cs" />
+     <Compile Include="Assets\Scripts\Trigger\TriggerOnce.cs" />
+     <Compile Include="Assets\Scripts\Trigger\UseTrigger.cs" />
+     <Compile Include="Assets\Scripts\Wartrain\Wartrain.cs" />
+     <Compile Include="Assets\Scripts\Wartrain\WartrainEnemy.cs" />
+     <Compile Include="Assets\Scripts\Wartrain\WartrainPlane.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{74C04820-621D-3C70-B356-EDF50C30856B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{FEAC3C8A-D48F-FEBC-086B-7399EFE31064}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

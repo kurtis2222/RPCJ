@@ -1,0 +1,6 @@
+1.1
+===
+- Pályák könnyítve
+- Teljesítmény javítva
+- Hangok javítva
+- Kisebb újítások
